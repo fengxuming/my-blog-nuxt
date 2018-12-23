@@ -2,7 +2,7 @@ const pkg = require('./package')
 
 module.exports = {
   mode: 'universal',
-  port:1024,
+  
   /*
   ** Headers of the page
   */
@@ -15,7 +15,7 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet',  href: 'https://berlindiary.info/assets/built/screen.css' },
+      { rel: 'stylesheet',  href: 'https://blog.berlindiary.info/assets/built/screen.css' },
       { rel: 'stylesheet',  href: '//cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/themes/prism.min.css' }
       
     ],

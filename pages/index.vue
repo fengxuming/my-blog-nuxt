@@ -7,7 +7,7 @@
         background: #090a0b no-repeat 50%;
         background-size: cover;
         color: #fff;
-        background-image: url(https://berlindiary.info/content/images/2018/09/acg.gy_06-2.jpg);"></div>
+        background-image: url(https://blog.berlindiary.info/content/images/2018/09/acg.gy_06-2.jpg);"></div>
       <div class="title">
         <h2>柏林日记的博客</h2>
         <span>随笔，记录</span>
