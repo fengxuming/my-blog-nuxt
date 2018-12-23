@@ -30,7 +30,7 @@ const store = () => new Vuex.Store({
   actions:{
       //获取博文列表
       async getPosts(context,pageNumber){
-        let res = await axios.get("https://berlindiary.info:9000/ghost/api/v0.1/posts",{
+        let res = await axios.get("https://blog.berlindiary.info/ghost/api/v0.1/posts",{
           params:{
             client_id:"ghost-frontend",
             client_secret:"51cc83e1250f",
@@ -46,7 +46,7 @@ const store = () => new Vuex.Store({
       //获取博文详情
       async getPost(context,postId){
         
-        let res = await axios.get("https://berlindiary.info:9000/ghost/api/v0.1/posts/"+postId,{
+        let res = await axios.get("https://blog.berlindiary.info/ghost/api/v0.1/posts/"+postId,{
           params:{
             client_id:"ghost-frontend",
             client_secret:"51cc83e1250f",
