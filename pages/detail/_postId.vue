@@ -1,7 +1,7 @@
 <template>
     <main id="site-main" class="site-main outer" style="background: #f2f2f2f2;">
         <div class="inner">
-            <article class="post-full post no-image" style="max-width: 1000px;margin: 0 auto;background: #ffffff;padding: 25px;">
+            <article class="post-full post no-image" style="max-width: 1000px;margin: 0 auto;background: #ffffff;padding: 25px;min-height: 1200px;">
                 <header class="post-full-header" style="text-align: center;">
                     <section class="post-full-meta">
                      
