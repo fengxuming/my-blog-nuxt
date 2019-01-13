@@ -30,23 +30,21 @@ const store = () => new Vuex.Store({
   actions:{
       //获取博文列表
       async getPosts(context,pageNumber){
-        let res = await axios.get("https://blog.berlindiary.info/ghost/api/v0.1/posts/",{
+        let res = await axios.get("https://berlindiary.info:3003/posts/",{
           params:{
-            client_id:"ghost-frontend",
-            client_secret:"51cc83e1250f",
-            formats:"html,plaintext",
-            limit:"9",
-            page:pageNumber
+            
+            maxSize:9,
+            offset:(pageNumber-1)*9
           }
         });
-        context.commit('setPosts',res.data.posts)
-        context.commit("setPostTotalNumber",res.data.meta.pagination.total)
+        context.commit('setPosts',res.data.datas)
+        context.commit("setPostTotalNumber",res.data.totalRecords);
           
       },
       //获取博文详情
       async getPost(context,postId){
         
-        let res = await axios.get("https://blog.berlindiary.info/ghost/api/v0.1/posts/"+postId,{
+        let res = await axios.get("https://berlindiary.info:3003/posts/"+postId,{
           params:{
             client_id:"ghost-frontend",
             client_secret:"51cc83e1250f",
@@ -54,7 +52,7 @@ const store = () => new Vuex.Store({
             
           }
         });
-        context.commit('setPostDetail',res.data.posts[0])
+        context.commit('setPostDetail',res.data)
           
       },
 

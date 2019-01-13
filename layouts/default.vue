@@ -10,6 +10,7 @@
    </a-locale-provider>
 </template>
 <script>
+
 import zhCN from 'ant-design-vue/lib/locale-provider/zh_CN';
 export default {
   data() {
@@ -96,6 +97,6 @@ nav a.active {
   color: #039be5;
 }
 .post-full-content pre{
-  background: unset;
+  
 }
 </style>

@@ -7,7 +7,7 @@
         background: #090a0b no-repeat 50%;
         background-size: cover;
         color: #fff;
-        background-image: url(https://blog.berlindiary.info/content/images/2018/09/acg.gy_06-2.jpg);"></div>
+        background-image: url(https://berlindiary.info:3001/public/images/acg-267c3ba67b269968a1a1c6f9e88ff8f6.jpg);"></div>
       <div class="title">
         <h2>柏林日记的博客</h2>
         <span>随笔，记录</span>
@@ -21,7 +21,7 @@
           color: #ffffff;
           padding: 0;font-weight: bold;">首页</a>
         </a-menu-item>
-        <a-menu-item style="margin-left:20px">
+        <a-menu-item >
           <a href="https://berlindiary.info/resolve" style="display: unset;
           color: #ffffff;
           padding: 0;font-weight: bold;">新番速递</a>
@@ -34,16 +34,22 @@
        
       </a-menu>
     </a-layout-header>
-    <a-layout-content style="padding: 0 50px">
-       <div style="padding:30px;padding-top: 0px;margin: 0 auto;
-        max-width: 1040px;
+    <a-layout-content style="padding: 0 0px">
+       <div style="padding:20px;padding-top: 0px;margin: 0 auto;
+        max-width: 1200px;
         margin-top: -84px;
         width: 100%;">
          <a-row :gutter="30">
            <a-col class="post-item"  :sm="24" :md="12" :lg="8" v-for="post in posts" :key="post.id">
-              <a :href="`/detail/`+post.id">
+              <a :href="`/detail/`+post._id">
                 <a-card :title="post.title" style="border-radius: 5px;box-shadow: 8px 14px 38px rgba(39,44,49,.06),1px 3px 8px rgba(39,44,49,.03);">
-                    <p style="height:400px;overflow:hidden">{{post.plaintext}}</p>
+                    <!-- <p style="height:400px;overflow:hidden" >
+                      {{post.markdown}}
+                    </p> -->
+                    <div class="markdown-body"  style="height:400px;overflow:hidden" v-html="post.markdown">
+                       
+                    </div>
+                    
                 </a-card>
               </a>
            </a-col>
@@ -51,11 +57,11 @@
            
          </a-row>
           
-
+        <div style="margin-top:20px">
+            <a-pagination showQuickJumper :defaultCurrent="1" :total="totalNumber" @change="onChange" :pageSize="9"/>
+        </div>
       
       
-      <!-- <nz-pagination (nzPageIndexChange)="searchData($event)" [(nzPageIndex)]="pageIndex" [nzTotal]="totalData" [nzPageSize]="9" style="text-align:right;"></nz-pagination> -->
-      <a-pagination showQuickJumper :defaultCurrent="1" :total="totalNumber" @change="onChange" />
     </div>
     </a-layout-content>
     
@@ -185,11 +191,11 @@ export default {
     background: unset;
     border: none;
     color: #ffffff;
-    left: 60px;
+    left: 0;
     right: 0;
     top: 289px;
     margin: 0 auto;
-    max-width: 1040px;
+    max-width: 1200px;
     width: 100%;
     z-index: 999999;
 }
@@ -235,7 +241,7 @@ nav li.active {
   color: #039be5;
 }
 .post-full-content pre{
-  background: unset;
+  
 }
 .ant-pagination-item{
   padding-left: 0;

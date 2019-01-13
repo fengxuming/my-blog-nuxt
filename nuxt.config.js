@@ -15,8 +15,10 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet',  href: 'https://blog.berlindiary.info/assets/built/screen.css' },
-      { rel: 'stylesheet',  href: '//cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/themes/prism.min.css' }
+     
+     
+
+      
       
     ],
     script:[
@@ -33,8 +35,11 @@ module.exports = {
   ** Global CSS
   */
   css: [
-    'ant-design-vue/dist/antd.css'
+    'ant-design-vue/dist/antd.css',
+    'github-markdown-css/github-markdown.css',
+    'highlight.js/styles/github-gist.css'
   ],
+
 
   /*
   ** Plugins to load before mounting the App
