@@ -30,6 +30,14 @@ const store = () => new Vuex.Store({
   actions:{
       //获取博文列表
       async getPosts(context,pageNumber){
+        // let res = await axios.get("https://berlindiary.info:3003/posts/",{
+        //   params:{
+            
+        //     maxSize:9,
+        //     offset:(pageNumber-1)*9
+        //   }
+        // });
+
         let res = await axios.get("https://berlindiary.info:3003/posts/",{
           params:{
             

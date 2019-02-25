@@ -1,5 +1,6 @@
 <template>
   <a-layout id="components-layout-demo-top" class="layout">
+    
     <a-layout-header>
      
       <div class="" style="width: 100%;
@@ -62,6 +63,7 @@
         </div>
       
       
+      
     </div>
     </a-layout-content>
     
@@ -94,7 +96,13 @@ export default {
     }
   },
   mounted(){
-     this.currentPage = parseInt(this.$route.query.pageNumber) ;
+    if(this.$route.query.pageNumber){
+      this.currentPage = parseInt(this.$route.query.pageNumber) ;
+    }else{
+      this.currentPage = 1;
+    }
+
+
      
   },
   methods:{
