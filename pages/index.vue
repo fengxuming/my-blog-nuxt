@@ -22,7 +22,7 @@
           padding: 0;font-weight: bold;">首页</a>
         </a-menu-item>
         <a-menu-item >
-          <a href="https://berlindiary.info/resolve" style="display: unset;
+          <a href="https://berlindiary.info/resolve/" style="display: unset;
           color: #ffffff;
           padding: 0;font-weight: bold;">新番速递</a>
         </a-menu-item>
@@ -58,7 +58,7 @@
          </a-row>
           
         <div style="margin-top:20px">
-            <a-pagination showQuickJumper :defaultCurrent="1" :total="totalNumber" @change="onChange" :pageSize="9"/>
+            <a-pagination showQuickJumper :current="currentPage" :defaultCurrent="1" :total="totalNumber" @change="onChange" :pageSize="9"/>
         </div>
       
       
@@ -79,6 +79,7 @@ export default {
   data () {
     return {
       current: ['mail'],
+      currentPage : 1
     }
   },
   computed:{
@@ -93,19 +94,26 @@ export default {
     }
   },
   mounted(){
-    
+     this.currentPage = parseInt(this.$route.query.pageNumber) ;
+     
   },
   methods:{
     onChange(pageNumber) {
       console.log('Page: ', pageNumber);
-      this.$store.dispatch("getPosts",pageNumber);
+      // this.$store.dispatch("getPosts",pageNumber);
+      window.location = "/?pageNumber="+pageNumber;
     }
   },
   
   async asyncData (context) {
+
+    let pageNumber = 1;
+    if(context.query.pageNumber){
+      pageNumber = context.query.pageNumber;
+    }
     
-    await context.store.dispatch("getPosts",1);
-  
+    await context.store.dispatch("getPosts",pageNumber);
+   
     return { project: 'nuxt' }
   }
 }
