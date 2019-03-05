@@ -6,6 +6,7 @@ module.exports = {
   /*
   ** Headers of the page
   */
+
   head: {
     title: "柏林日记的博客",
     meta: [
@@ -22,7 +23,7 @@ module.exports = {
       
     ],
     script:[
-      
+      // { src:"/echarts.js" }
     ]
   },
 
@@ -45,8 +46,14 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '@/plugins/ant-ui'
+    '@/plugins/ant-ui',
+    {
+      src:"@/plugins/vcharts",
+      ssr: false 
+    }
+    ,
   ],
+
 
   /*
   ** Nuxt.js modules
@@ -73,5 +80,9 @@ module.exports = {
       
     },
     vendor: ['axios']
-  }
+  },
+  // router: {
+  //   middleware: 'stats'
+  // }
+
 }

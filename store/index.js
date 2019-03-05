@@ -6,14 +6,22 @@ Vue.use(Vuex)
 const store = () => new Vuex.Store({
 
   state: {
+    //查看码是否错误
+    codeIsOk:true,
     //博文总数
     postTotalNumber:0,
     //博文列表
     posts:[],
     //博文详情
-    postDetail:{}
+    postDetail:{},
+    //简历
+    resume:{}
   },
   mutations: {
+    //设置查看码是否正确
+    setCodeIsOk(state,isOk){
+      state.codeIsOk = isOk;
+    },
     //设置博文总数
     setPostTotalNumber(state,totalNumber){
       state.postTotalNumber = totalNumber;
@@ -25,6 +33,10 @@ const store = () => new Vuex.Store({
     //设置博文详情
     setPostDetail(state,post){
       state.postDetail = post;
+    },
+    //设置简历
+    setResume(state,resume){
+      state.resume = resume;
     }
   },
   actions:{
@@ -63,6 +75,13 @@ const store = () => new Vuex.Store({
         context.commit('setPostDetail',res.data)
           
       },
+      //获取简历
+      async getResume(context){
+        let res = await axios.get("https://berlindiary.info:3003/posts/5c3a254bc09dcc3c7936e9ee",{
+
+        });
+        context.commit('setResume',res.data)
+      }
 
   }
 })

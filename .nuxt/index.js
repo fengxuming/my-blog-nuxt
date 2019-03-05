@@ -14,6 +14,7 @@ import { createStore } from './store.js'
 
 import nuxt_plugin_axios_2f3fb441 from 'nuxt_plugin_axios_2f3fb441' // Source: ./axios.js
 import nuxt_plugin_antui_226c0f2e from 'nuxt_plugin_antui_226c0f2e' // Source: ../plugins/ant-ui
+import nuxt_plugin_vcharts_6ea1e3d7 from 'nuxt_plugin_vcharts_6ea1e3d7' // Source: ../plugins/vcharts (ssr: false)
 
 // Component: <no-ssr>
 Vue.component(NoSSR.name, NoSSR)
@@ -154,6 +155,10 @@ async function createApp(ssrContext) {
 
   if (typeof nuxt_plugin_axios_2f3fb441 === 'function') await nuxt_plugin_axios_2f3fb441(app.context, inject)
   if (typeof nuxt_plugin_antui_226c0f2e === 'function') await nuxt_plugin_antui_226c0f2e(app.context, inject)
+
+  if (process.client) {
+    if (typeof nuxt_plugin_vcharts_6ea1e3d7 === 'function') await nuxt_plugin_vcharts_6ea1e3d7(app.context, inject)
+  }
 
   // If server-side, wait for async component to be resolved first
   if (process.server && ssrContext && ssrContext.url) {

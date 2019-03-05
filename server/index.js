@@ -2,6 +2,8 @@
 const Koa = require('koa')
 const consola = require('consola')
 const { Nuxt, Builder } = require('nuxt')
+const koaBody = require('koa-body');
+const bodyParser = require('koa-bodyparser');
 
 const app = new Koa()
 const host = process.env.HOST || '127.0.0.1'
@@ -21,12 +23,16 @@ async function start() {
     await builder.build()
   }
 
+  app.use(koaBody({ multipart: true }));
+  app.use(bodyParser());
+
   app.use(ctx => {
     ctx.status = 200 // koa defaults to 404 when it sees that status is unset
 
     return new Promise((resolve, reject) => {
       ctx.res.on('close', resolve)
       ctx.res.on('finish', resolve)
+      ctx.req.ctx = ctx;
       nuxt.render(ctx.req, ctx.res, promise => {
         // nuxt.render passes a rejected promise into callback on error.
         promise.then(resolve).catch(reject)

@@ -4,6 +4,8 @@ import { interopDefault } from './utils'
 
 const _6f86e37e = () => interopDefault(import('../pages/config/login.vue' /* webpackChunkName: "pages/config/login" */))
 const _53fbb87a = () => interopDefault(import('../pages/edit/addBlog.vue' /* webpackChunkName: "pages/edit/addBlog" */))
+const _da8e3f76 = () => interopDefault(import('../pages/sp/auth.vue' /* webpackChunkName: "pages/sp/auth" */))
+const _6edd130a = () => interopDefault(import('../pages/sp/resume.vue' /* webpackChunkName: "pages/sp/resume" */))
 const _2c77b8d3 = () => interopDefault(import('../pages/util/formatTime.js' /* webpackChunkName: "pages/util/formatTime" */))
 const _0c2ea83e = () => interopDefault(import('../pages/detail/_postId.vue' /* webpackChunkName: "pages/detail/_postId" */))
 const _9a553886 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
@@ -73,6 +75,14 @@ export function createRouter() {
       path: "/edit/addBlog",
       component: _53fbb87a,
       name: "edit-addBlog"
+    }, {
+      path: "/sp/auth",
+      component: _da8e3f76,
+      name: "sp-auth"
+    }, {
+      path: "/sp/resume",
+      component: _6edd130a,
+      name: "sp-resume"
     }, {
       path: "/util/formatTime",
       component: _2c77b8d3,
