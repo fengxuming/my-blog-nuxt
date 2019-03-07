@@ -4,7 +4,7 @@
       <div class="inner">
         <article
           class="post-full post no-image resume"
-          style="max-width: 1000px;background: #ffffff;min-height: 1200px;"
+          style="max-width: 1200px;background: #ffffff;min-height: 1200px;"
         >
           <header class="post-full-header" style="text-align: center;">
             <section class="post-full-meta">
@@ -13,7 +13,221 @@
             <h1 class="post-full-title" style="font-size: 30px;">简历</h1>
           </header>
           <section class="post-full-content">
-            <div class="markdown-body" v-html="resume"></div>
+            <div class="markdown-body">
+              <h2 id="个人信息">个人信息</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>姓名</th>
+                    <th>毕业院校</th>
+                    <th>专业</th>
+                    <th>毕业时间</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>冯旭明</td>
+                    <td>南京林业大学</td>
+                    <td>计算机科学与技术</td>
+                    <td>
+                      <code>2017.6</code>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <table>
+                <thead>
+                  <tr>
+                    <th>邮箱</th>
+                    <th>联系电话</th>
+                    <th>期望职位</th>
+                    <th>期望城市</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <code>fxm31415926@gmail.com</code>
+                    </td>
+                    <td>
+                      <code>18652953627</code>
+                    </td>
+                    <td>web前端开发</td>
+                    <td>上海/南京/杭州</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h2 id="链接">链接</h2>
+              <blockquote>
+                <p>详细简历：
+                  <a href="https://berlindiary.info/sp/resume/">https://berlindiary.info/sp/resume/</a> 查看码：271828
+                </p>
+                <p>个人博客（koa+mongodb+nuxt+antd）：
+                  <a href="https://berlindiary.info/">https://berlindiary.info/</a>
+                </p>
+                <p>业余项目（koa+mongodb+nuxt+elementUI）：
+                  <a href="https://berlindiary.info/resolve/">https://berlindiary.info/resolve/</a>
+                </p>
+                <p>github：
+                  <a href="https://github.com/fengxuming">https://github.com/fengxuming</a>
+                </p>
+              </blockquote>
+              <h2 id="主要技能">主要技能</h2>
+              <p>
+                <code>nodejs</code>：熟悉express和koa，常用的nodejs模块，编写过web服务器提供restful接口，模拟前端接口数据
+              </p>
+              <p>
+                <code>javascript</code>：熟悉原生js，ES6，有用原生js实现复杂项目的经验。熟练使用vue全家桶（vuex，nuxt.js等）,了解vue的基本实现原理（数据绑定，模板编译）。能使用react编写项目（react，redux），了解vue和react实现差异和各自的特点。
+              </p>
+              <p>
+                <code>java</code>：了解java的基本知识，写过业务逻辑，和定时获取文件的工具
+              </p>
+              <p>其他：webpack配置打包js，nginx静态服务器和反向代理配置，git使用，熟悉http协议，熟悉restful风格接口，有定义接口文档经验。mysql和mongodb基本使用（orm框架使用，数据结构定义，基本的查询优化）</p>
+              <h2 id="工作经历">工作经历</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>时间</th>
+                    <th>公司</th>
+                    <th>职位</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>2018.03-今</td>
+                    <td>南京苏宁软件技术有限公司</td>
+                    <td>前端开发工程师</td>
+                  </tr>
+                  <tr>
+                    <td>2017.06-2018.1</td>
+                    <td>南京信大气象科技有限公司</td>
+                    <td>前端开发工程师</td>
+                  </tr>
+                </tbody>
+              </table>
+              <p>##项目经历</p>
+              <table>
+                <thead>
+                  <tr>
+                    <th>项目时间</th>
+                    <th align="left">项目名称</th>
+                    <th align="left">技术栈</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>2018.04-2018.06 2018.07-2018.08</td>
+                    <td align="left">苏宁星河流星雨</td>
+                    <td align="left">
+                      <code>原生js</code>
+                      <code>artTemplate</code>
+                      <code>ES6</code>
+                      <code>webpack</code>
+                      <code>echarts</code>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <p>地址：
+                <code>http://gcdap.suning.com/gcdap/index.htm</code>
+              </p>
+              <p>项目简介：提供海量数据资源的自助式建模，生成数据报表，多终端分享</p>
+              <p>个人责任：</p>
+              <ol>
+                <li>模型和报表模块的文件夹功能模块</li>
+                <li>数据模型生成模块（包含数据模型构建和数据筛选）</li>
+                <li>报表部分图表（柱状图，折线图）模块</li>
+                <li>报表编辑的联动筛选，单位切换模块</li>
+              </ol>
+              <hr>
+              <table>
+                <thead>
+                  <tr>
+                    <th>项目时间</th>
+                    <th align="left">项目名称</th>
+                    <th align="left">技术栈</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>2018.07-2018.12</td>
+                    <td align="left">苏宁小店订货 （移动端h5）</td>
+                    <td align="left">
+                      <code>vue.js</code>
+                      <code>vuex</code>
+                      <code>Echarts.js</code>
+                      <code>Mint Ui</code>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <p>项目简介：提供苏宁小店门店智能订货功能，包括扫码查询，要货数推荐，倒计时自动提交，订货单查询，销售报表等功能</p>
+              <p>个人责任：</p>
+              <ol>
+                <li>独立完成前端开发工作</li>
+                <li>使用rem编写适应移动端的页面</li>
+                <li>订货页面数据异步获取，计算推荐要货数。</li>
+                <li>防止重复提交的优化</li>
+                <li>订货报表（echarts）</li>
+              </ol>
+              <hr>
+              <table>
+                <thead>
+                  <tr>
+                    <th>项目时间</th>
+                    <th align="left">项目名称</th>
+                    <th align="left">技术栈</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>2016.07-2016.10</td>
+                    <td align="left">问医</td>
+                    <td align="left">
+                      <code>nodejs</code>
+                      <code>express</code>
+                      <code>angularJs</code>
+                      <code>mongodb</code>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <p>项目简介：给医生和用户提供的问答平台</p>
+              <p>个人责任：</p>
+              <ol>
+                <li>定义项目数据结构，搭建基于express后台服务提供restful接口</li>
+                <li>使用angularJs 搭建pc端的单页应用并完成功能逻辑</li>
+                <li>其中聊天室功能利用websocket，实现后台数据主动推送到客户端</li>
+              </ol>
+              <hr>
+              <table>
+                <thead>
+                  <tr>
+                    <th>项目时间</th>
+                    <th align="left">项目名称</th>
+                    <th align="left">技术栈</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>2017.06-2017.11</td>
+                    <td align="left">大城市项目</td>
+                    <td align="left">
+                      <code>nodejs</code>
+                      <code>koa</code>
+                      <code>vue</code>
+                      <code>element ui</code>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <p>项目简介：展示城市气象数据</p>
+              <p>个人责任：</p>
+              <ol>
+                <li>nodejs定时获取气象设备的数据存入本地，提供给气象团队分析生成相关气象图</li>
+                <li>vue和element ui展示相关气象情况</li>
+              </ol>
+            </div>
           </section>
         </article>
         <div class="detail-info data-charts" v-show="userInfoAtive">
@@ -120,67 +334,67 @@
                 <a-tab-pane tab="首页" key="1">
                   <info-detail imgUrl="/xiaodian/1.shouye.png" :portrait="false">
                     <ul>
-                        <li>左侧切换类目条件</li>
-                        <li>右侧顶部筛选条件</li>
-                        <li>商品列表上拉加载，下拉刷新</li>
-                        <li>实货库存异步拉取</li>
-                        <li>建议要货物根据拉取的实货库存计算</li>
-                        <li>添加数量（根据箱规向下取整）</li>
-                        <li>顶部扫码或输入商品名搜索</li>
+                      <li>左侧切换类目条件</li>
+                      <li>右侧顶部筛选条件</li>
+                      <li>商品列表上拉加载，下拉刷新</li>
+                      <li>实货库存异步拉取</li>
+                      <li>建议要货物根据拉取的实货库存计算</li>
+                      <li>添加数量（根据箱规向下取整）</li>
+                      <li>顶部扫码或输入商品名搜索</li>
                     </ul>
                   </info-detail>
                 </a-tab-pane>
                 <a-tab-pane tab="首页筛选" key="2">
                   <info-detail imgUrl="/xiaodian/2.shouyeshaixuan.png" :portrait="false">
                     <ul>
-                        <li>筛选条件选择</li>
-                        <li>细化类目图片懒加载</li>
+                      <li>筛选条件选择</li>
+                      <li>细化类目图片懒加载</li>
                     </ul>
                   </info-detail>
                 </a-tab-pane>
                 <a-tab-pane tab="零星订货" key="3">
                   <info-detail imgUrl="/xiaodian/3.lingxingdinghuo.png" :portrait="false">
                     <ul>
-                        <li>精确搜索单个商品</li>
-                        <li>异步拉去实货数据</li>
-                        <li>在规定的时间内可提交补货</li>
+                      <li>精确搜索单个商品</li>
+                      <li>异步拉去实货数据</li>
+                      <li>在规定的时间内可提交补货</li>
                     </ul>
                   </info-detail>
                 </a-tab-pane>
                 <a-tab-pane tab="仓配购物车" key="4">
                   <info-detail imgUrl="/xiaodian/4.cangpeigouwuche.png" :portrait="false">
                     <ul>
-                        <li>实时修改购物车数量</li>
-                        <li>到时间自动提交</li>
-                        <li>编辑删除功能</li>
+                      <li>实时修改购物车数量</li>
+                      <li>到时间自动提交</li>
+                      <li>编辑删除功能</li>
                     </ul>
                   </info-detail>
                 </a-tab-pane>
                 <a-tab-pane tab="日配购物车" key="5">
                   <info-detail imgUrl="/xiaodian/5.ripeigouwuche.png" :portrait="false">
                     <ul>
-                        <li>手动添加数量</li>
-                        <li>编辑删除</li>
-                        <li>手动提交</li>
-                        <li>联动选择</li>
+                      <li>手动添加数量</li>
+                      <li>编辑删除</li>
+                      <li>手动提交</li>
+                      <li>联动选择</li>
                     </ul>
                   </info-detail>
                 </a-tab-pane>
                 <a-tab-pane tab="订单列表" key="6">
                   <info-detail imgUrl="/xiaodian/6.dingdanliebiao.png" :portrait="false">
                     <ul>
-                        <li>展示订单列表</li>
-                        <li>电话号码点击可调出拨号盘</li>
-                        <li>手动搜索订单</li>
+                      <li>展示订单列表</li>
+                      <li>电话号码点击可调出拨号盘</li>
+                      <li>手动搜索订单</li>
                     </ul>
                   </info-detail>
                 </a-tab-pane>
                 <a-tab-pane tab="订单筛选" key="7">
                   <info-detail imgUrl="/xiaodian/7.dingdanshaixuan.png" :portrait="false">
                     <ul>
-                        <li>订单列表筛选条件</li>
-                        <li>类型筛选条件</li>
-                        <li>时间选择控件</li>
+                      <li>订单列表筛选条件</li>
+                      <li>类型筛选条件</li>
+                      <li>时间选择控件</li>
                     </ul>
                   </info-detail>
                 </a-tab-pane>
@@ -198,35 +412,33 @@
                 <a-tab-pane tab="问题列表" key="1">
                   <info-detail imgUrl="/wenyi/1.questionlist.png" :portrait="true">
                     <ul>
-                       <li>用户问题列表</li>
-                       <li>点击之后有问题详情并能选择医生发表回复</li>
+                      <li>用户问题列表</li>
+                      <li>点击之后有问题详情并能选择医生发表回复</li>
                     </ul>
                   </info-detail>
                 </a-tab-pane>
                 <a-tab-pane tab="频道列表" key="2">
                   <info-detail imgUrl="/wenyi/2.pingdaolist.png" :portrait="true">
                     <ul>
-                        <li>聊天室列表</li>
-                        <li>点击之后是详细的聊天室信息</li>
+                      <li>聊天室列表</li>
+                      <li>点击之后是详细的聊天室信息</li>
                     </ul>
                   </info-detail>
                 </a-tab-pane>
                 <a-tab-pane tab="频道详情" key="3">
                   <info-detail imgUrl="/wenyi/4.pingdaodetail.png" :portrait="true">
                     <ul>
-                        <li>主办人，关联用户，持续时间等等</li>
+                      <li>主办人，关联用户，持续时间等等</li>
                     </ul>
                   </info-detail>
                 </a-tab-pane>
                 <a-tab-pane tab="热词" key="4">
                   <info-detail imgUrl="/wenyi/3.hotword.png" :portrait="true">
                     <ul>
-                        <li>用户搜索频率高的词</li>
-                      
+                      <li>用户搜索频率高的词</li>
                     </ul>
                   </info-detail>
                 </a-tab-pane>
-
               </a-tabs>
             </item-content>
           </div>
@@ -342,10 +554,10 @@ import { formatDate } from "../util/formatTime.js";
 import ItemContent from "~/components/ItemContent.vue";
 import InfoDetail from "~/components/InfoDetail.vue";
 
-const marked = require("marked");
+// const marked = require("marked");
 
 export default {
-  middleware: 'stats',
+  middleware: "stats",
   loading: false,
   components: {
     ItemContent,
@@ -353,12 +565,12 @@ export default {
   },
   data() {
     this.workChartsSet = {
-        roseType: 'radius'
-    }
+      roseType: "radius"
+    };
     this.historyChartsSet = {
-        // yAxisName: ['月']
-    }
-    
+      // yAxisName: ['月']
+    };
+
     return {
       resume: "",
       userInfoAtive: true,
@@ -374,57 +586,55 @@ export default {
         rows: [
           { 语言: "JavaScript", 程度: 100 },
           { 语言: "Nodejs", 程度: 100 },
-          { 语言: "Java", 程度: 50 },
+          { 语言: "Java", 程度: 50 }
         ]
       },
-      frameCharts:{
+      frameCharts: {
         columns: ["框架", "程度"],
         rows: [
           { 框架: "Koa", 程度: 100 },
           { 框架: "Express", 程度: 100 },
           { 框架: "Vue", 程度: 100 },
-          { 框架: "React", 程度: 70 },
+          { 框架: "React", 程度: 70 }
         ]
       },
-      utilCharts:{
+      utilCharts: {
         columns: ["工具", "程度"],
         rows: [
           { 工具: "Webpack", 程度: 100 },
           { 工具: "Gulp", 程度: 50 },
           { 工具: "Google", 程度: 120 },
           { 工具: "stackoverflow", 程度: 120 },
-          { 工具: "vscode", 程度: 100 },
+          { 工具: "vscode", 程度: 100 }
         ]
       },
-      openCharts:{
+      openCharts: {
         columns: ["开源组件", "程度"],
         rows: [
           { 开源组件: "Element UI", 程度: 100 },
           { 开源组件: "Antd", 程度: 100 },
           { 开源组件: "Echarts", 程度: 100 },
           { 开源组件: "V-charts", 程度: 100 },
-          { 开源组件: "artTemplate", 程度: 80 },
-          
+          { 开源组件: "artTemplate", 程度: 80 }
         ]
       },
       workCharts: {
-        columns: ["方向","程度"],
+        columns: ["方向", "程度"],
         rows: [
           { 方向: "数据可视化", 程度: 100 },
-          { 方向: "SSR", 程度:80 },
+          { 方向: "SSR", 程度: 80 },
           { 方向: "前后分离", 程度: 100 },
           { 方向: "页面性能优化", 程度: 56 },
           { 方向: "复杂交互", 程度: 30 },
           { 方向: "移动端", 程度: 56 },
-          { 方向: "websocket", 程度: 70 },
-          
+          { 方向: "websocket", 程度: 70 }
         ]
       },
       historyCharts: {
         columns: ["公司", "月数"],
         rows: [
           { 公司: "南京信大气象", 月数: 6 },
-          { 公司: "南京苏宁软件", 月数: 12 },
+          { 公司: "南京苏宁软件", 月数: 12 }
         ]
       },
       keyCharts: {
@@ -462,7 +672,7 @@ export default {
           word: "H5移动端",
           count: 2000
         },
-     
+
         {
           word: "ES6",
           count: 1700
@@ -482,7 +692,7 @@ export default {
         {
           word: "Mongodb",
           count: 1600
-        }, 
+        },
         {
           word: "移动端适配",
           count: 1600
@@ -491,7 +701,6 @@ export default {
           word: "图表",
           count: 1600
         }
-        
       ];
     }
   },
@@ -511,9 +720,9 @@ export default {
       this.show = true;
     }, 500);
 
-    let markdown = document.querySelector(".resume-markdown textarea").value;
+    // let markdown = document.querySelector(".resume-markdown textarea").value;
 
-    this.resume = marked(markdown);
+    // this.resume = marked(markdown);
   }
 };
 </script>
@@ -537,7 +746,6 @@ export default {
 }
 .inner {
   display: flex;
- 
 }
 .resume {
   width: 50%;
@@ -560,10 +768,10 @@ export default {
   display: none;
 }
 .data-charts {
-  max-width: 500px;
+  max-width: 400px;
 }
 .project-detail {
-  max-width: 700px;
+  max-width: 600px;
 }
 .project-detail .content:first-child {
   margin-top: 0;
