@@ -1,8 +1,8 @@
-import Vue from 'vue'
-import Element from 'element-ui/lib/element-ui.common'
-import locale from 'element-ui/lib/locale/lang/en'
-import VueLocalStorage from 'vue-localstorage';
-export default () => {
-  Vue.use(Element, { locale });
-  Vue.use(VueLocalStorage);
-}
+// import Vue from 'vue'
+// import Element from 'element-ui/lib/element-ui.common'
+// import locale from 'element-ui/lib/locale/lang/en'
+// import VueLocalStorage from 'vue-localstorage';
+// export default () => {
+//   Vue.use(Element, { locale });
+//   Vue.use(VueLocalStorage);
+// }

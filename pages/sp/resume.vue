@@ -554,7 +554,7 @@ import { formatDate } from "../util/formatTime.js";
 import ItemContent from "~/components/ItemContent.vue";
 import InfoDetail from "~/components/InfoDetail.vue";
 
-// const marked = require("marked");
+
 
 export default {
   middleware: "stats",
