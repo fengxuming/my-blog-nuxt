@@ -2,7 +2,11 @@
   <a-locale-provider :locale="locale">
     <div class="main">
       <nuxt/>
-      <a-layout-footer style="text-align: center;">
+      <a-layout-footer style="text-align: center;position: absolute;
+
+left: 0;
+
+right: 0;">
         Blog ©2018 Created by BerlinDiary
       </a-layout-footer>
     </div>
