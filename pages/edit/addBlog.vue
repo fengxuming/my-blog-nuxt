@@ -30,6 +30,7 @@ export default {
             let token = this.$localStorage.get('token');
             axios({
                 url:"https://berlindiary.info:3003/posts",
+        
                 headers: {'token':token},
                 method:"post",
                 data:{

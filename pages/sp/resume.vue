@@ -13,220 +13,9 @@
             <h1 class="post-full-title" style="font-size: 30px;">简历</h1>
           </header>
           <section class="post-full-content">
-            <div class="markdown-body">
-              <h2 id="个人信息">个人信息</h2>
-              <table>
-                <thead>
-                  <tr>
-                    <th>姓名</th>
-                    <th>毕业院校</th>
-                    <th>专业</th>
-                    <th>毕业时间</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>冯旭明</td>
-                    <td>南京林业大学</td>
-                    <td>计算机科学与技术</td>
-                    <td>
-                      <code>2017.6</code>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <table>
-                <thead>
-                  <tr>
-                    <th>邮箱</th>
-                    <th>联系电话</th>
-                    <th>期望职位</th>
-                    <th>期望城市</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>
-                      <code>fxm31415926@gmail.com</code>
-                    </td>
-                    <td>
-                      <code>18652953627</code>
-                    </td>
-                    <td>web前端开发</td>
-                    <td>上海/南京/杭州</td>
-                  </tr>
-                </tbody>
-              </table>
-              <h2 id="链接">链接</h2>
-              <blockquote>
-                <p>详细简历：
-                  <a href="https://berlindiary.info/sp/resume/">https://berlindiary.info/sp/resume/</a> 查看码：271828
-                </p>
-                <p>个人博客（koa+mongodb+nuxt+antd）：
-                  <a href="https://berlindiary.info/">https://berlindiary.info/</a>
-                </p>
-                <p>业余项目（koa+mongodb+nuxt+elementUI）：
-                  <a href="https://berlindiary.info/resolve/">https://berlindiary.info/resolve/</a>
-                </p>
-                <p>github：
-                  <a href="https://github.com/fengxuming">https://github.com/fengxuming</a>
-                </p>
-              </blockquote>
-              <h2 id="主要技能">主要技能</h2>
-              <p>
-                <code>nodejs</code>：熟悉express和koa，常用的nodejs模块，编写过web服务器提供restful接口，模拟前端接口数据
-              </p>
-              <p>
-                <code>javascript</code>：熟悉原生js，ES6，有用原生js实现复杂项目的经验。熟练使用vue全家桶（vuex，nuxt.js等）,了解vue的基本实现原理（数据绑定，模板编译）。能使用react编写项目（react，redux），了解vue和react实现差异和各自的特点。
-              </p>
-              <p>
-                <code>java</code>：了解java的基本知识，写过业务逻辑，和定时获取文件的工具
-              </p>
-              <p>其他：webpack配置打包js，nginx静态服务器和反向代理配置，git使用，熟悉http协议，熟悉restful风格接口，有定义接口文档经验。mysql和mongodb基本使用（orm框架使用，数据结构定义，基本的查询优化）</p>
-              <h2 id="工作经历">工作经历</h2>
-              <table>
-                <thead>
-                  <tr>
-                    <th>时间</th>
-                    <th>公司</th>
-                    <th>职位</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>2018.03-今</td>
-                    <td>南京苏宁软件技术有限公司</td>
-                    <td>前端开发工程师</td>
-                  </tr>
-                  <tr>
-                    <td>2017.06-2018.1</td>
-                    <td>南京信大气象科技有限公司</td>
-                    <td>前端开发工程师</td>
-                  </tr>
-                </tbody>
-              </table>
-              <p>##项目经历</p>
-              <table>
-                <thead>
-                  <tr>
-                    <th>项目时间</th>
-                    <th align="left">项目名称</th>
-                    <th align="left">技术栈</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>2018.04-2018.06 2018.07-2018.08</td>
-                    <td align="left">苏宁星河流星雨</td>
-                    <td align="left">
-                      <code>原生js</code>
-                      <code>artTemplate</code>
-                      <code>ES6</code>
-                      <code>webpack</code>
-                      <code>echarts</code>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <p>地址：
-                <code>http://gcdap.suning.com/gcdap/index.htm</code>
-              </p>
-              <p>项目简介：提供海量数据资源的自助式建模，生成数据报表，多终端分享</p>
-              <p>个人责任：</p>
-              <ol>
-                <li>模型和报表模块的文件夹功能模块</li>
-                <li>数据模型生成模块（包含数据模型构建和数据筛选）</li>
-                <li>报表部分图表（柱状图，折线图）模块</li>
-                <li>报表编辑的联动筛选，单位切换模块</li>
-              </ol>
-              <hr>
-              <table>
-                <thead>
-                  <tr>
-                    <th>项目时间</th>
-                    <th align="left">项目名称</th>
-                    <th align="left">技术栈</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>2018.07-2018.12</td>
-                    <td align="left">苏宁小店订货 （移动端h5）</td>
-                    <td align="left">
-                      <code>vue.js</code>
-                      <code>vuex</code>
-                      <code>Echarts.js</code>
-                      <code>Mint Ui</code>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <p>项目简介：提供苏宁小店门店智能订货功能，包括扫码查询，要货数推荐，倒计时自动提交，订货单查询，销售报表等功能</p>
-              <p>个人责任：</p>
-              <ol>
-                <li>独立完成前端开发工作</li>
-                <li>使用rem编写适应移动端的页面</li>
-                <li>订货页面数据异步获取，计算推荐要货数。</li>
-                <li>防止重复提交的优化</li>
-                <li>订货报表（echarts）</li>
-              </ol>
-              <hr>
-              <table>
-                <thead>
-                  <tr>
-                    <th>项目时间</th>
-                    <th align="left">项目名称</th>
-                    <th align="left">技术栈</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>2016.07-2016.10</td>
-                    <td align="left">问医</td>
-                    <td align="left">
-                      <code>nodejs</code>
-                      <code>express</code>
-                      <code>angularJs</code>
-                      <code>mongodb</code>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <p>项目简介：给医生和用户提供的问答平台</p>
-              <p>个人责任：</p>
-              <ol>
-                <li>定义项目数据结构，搭建基于express后台服务提供restful接口</li>
-                <li>使用angularJs 搭建pc端的单页应用并完成功能逻辑</li>
-                <li>其中聊天室功能利用websocket，实现后台数据主动推送到客户端</li>
-              </ol>
-              <hr>
-              <table>
-                <thead>
-                  <tr>
-                    <th>项目时间</th>
-                    <th align="left">项目名称</th>
-                    <th align="left">技术栈</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>2017.06-2017.11</td>
-                    <td align="left">大城市项目</td>
-                    <td align="left">
-                      <code>nodejs</code>
-                      <code>koa</code>
-                      <code>vue</code>
-                      <code>element ui</code>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <p>项目简介：展示城市气象数据</p>
-              <p>个人责任：</p>
-              <ol>
-                <li>nodejs定时获取气象设备的数据存入本地，提供给气象团队分析生成相关气象图</li>
-                <li>vue和element ui展示相关气象情况</li>
-              </ol>
+            
+            <div class="markdown-body" v-html="resume">
+              
             </div>
           </section>
         </article>
@@ -448,17 +237,17 @@
           <textarea>
 ## 个人信息
 
-| 姓名   | 毕业院校     | 专业             | 毕业时间 |
-| ------ | ------------ | ---------------- | -------- |
-| 冯旭明 | 南京林业大学 | 计算机科学与技术 | `2017.6` |
+| 姓名   | 毕业院校     | 专业             | 毕业时间 | 工作经验 |
+| ------ | ------------ | ---------------- | -------- | -------- |
+| 冯旭明 | 南京林业大学 | 计算机科学与技术 | `2017.6` | 2年      |
 
 | 邮箱                    | 联系电话      | 期望职位    | 期望城市 |
 | ----------------------- | ------------- | ----------- | -------- |
-| `fxm31415926@gmail.com` | `18652953627` | web前端开发 | 上海/南京/杭州   |
+| `fxm31415926@gmail.com` | `18652953627` | web前端开发 | 上海     |
 
 ## 链接
 
-> 详细简历：https://berlindiary.info/sp/resume/  查看码：271828
+> 详细简历：https://berlindiary.info/sp/resume/。 查看码：271828
 >
 > 个人博客（koa+mongodb+nuxt+antd）：https://berlindiary.info/
 >
@@ -468,13 +257,13 @@
 
 ## 主要技能
 
-`nodejs`：熟悉express和koa，常用的nodejs模块，编写过web服务器提供restful接口，模拟前端接口数据
+`nodejs`：熟悉express和koa，常用的nodejs模块，编写过web服务器提供restful接口，模拟前端接口数据。
 
-`javascript`：熟悉原生js，ES6，有用原生js实现复杂项目的经验。熟练使用vue全家桶（vuex，nuxt.js等）,了解vue的基本实现原理（数据绑定，模板编译）。能使用react编写项目（react，redux），了解vue和react实现差异和各自的特点。
+`javascript`：熟悉原生js，ES6，有用原生js实现复杂交互项目的经验。熟练使用vue全家桶（vuex，nuxt.js等）,了解vue的基本实现原理（数据绑定，模板编译）。能使用react编写项目（react，redux），了解vue和react实现差异和各自的特点。
 
-`java`：了解java的基本知识，写过业务逻辑，和定时获取文件的工具
+`java`：了解java的基本知识，能够编写业务逻辑。
 
-其他：webpack配置打包js，nginx静态服务器和反向代理配置，git使用，熟悉http协议，熟悉restful风格接口，有定义接口文档经验。mysql和mongodb基本使用（orm框架使用，数据结构定义，基本的查询优化）
+其他：webpack配置打包，能从零开始构建一个reat项目，熟悉git使用，熟悉http协议，熟悉restful风格接口，能定义良好的接口数据格式。mongodb基本使用（orm框架使用，数据结构定义，基本的查询优化）。
 
 ## 工作经历
 
@@ -485,20 +274,23 @@
 
 ##项目经历 
 
-| 项目时间                          | 项目名称       | 技术栈                                           |
-| --------------------------------- | :------------- | :----------------------------------------------- |
-| 2018.04-2018.06   2018.07-2018.08 | 苏宁星河流星雨 | `原生js` `artTemplate` `ES6` `webpack` `echarts` |
+| 项目时间                                           | 项目名称       | 技术栈                                           |
+| -------------------------------------------------- | :------------- | :----------------------------------------------- |
+| 2018.04-2018.06   2018.07-2018.08  2019.04-2019.06 | 苏宁星河流星雨 | `原生js` `artTemplate` `ES6` `webpack` `echarts` |
 
-地址：`http://gcdap.suning.com/gcdap/index.htm`
+地址：`http://gcdap.suning.com/gcdap/index.htm`（可申请试用）
 
 项目简介：提供海量数据资源的自助式建模，生成数据报表，多终端分享
 
+技术方案：用es6 的Class描述一个页面组件，配合artTemplate模版引擎加载一段html片段。组件之间使用自定义的事件机制进行通信。
+
 个人责任： 
 
-1. 模型和报表模块的文件夹功能模块
-2. 数据模型生成模块（包含数据模型构建和数据筛选）
+1. 模型和报表模块的文件夹功能模块，文件夹的树状展示每次更新后获取最新的数据重新渲染。对文件夹和文件的操作全部抽象到弹框中。通过每次传入的对象区分。
+2. 数据模型生成模块（包含数据模型构建和数据筛选），用一个大的json对象描述数据模型，弹窗修改的数据每次深拷贝一份，进行操作，确认修改之后合并到主json对象。每个展示模块和一个属性对应，属性变化时，此模块重新渲染。
 3. 报表部分图表（柱状图，折线图）模块
 4. 报表编辑的联动筛选，单位切换模块
+5. 后期迭代时，使用Object.defineProperty实现简易的数据绑定，逻辑层只需要修改页面绑定的对应的对象的值，然后可以自动调用模版引擎渲染对应的页面。
 
 ------
 
@@ -510,11 +302,14 @@
 
 个人责任：
 
-1. 独立完成前端开发工作
-2. 使用rem编写适应移动端的页面
-3. 订货页面数据异步获取，计算推荐要货数。
-4. 防止重复提交的优化
-5. 订货报表（echarts）
+1. 在移动端vue体积小，性能好，又有很多实践因此选择vue框架，和后台定义接口报文，并独立完成前端代码的开发。
+2. 使用nodejs搭建反向代理的功能，前端本地的先发送给node服务器然后再通过node转发给实际的后台地址，在后台接口没有添加cors的情况下，方便前后端的联调
+3. 使用rem配合vm单位编写适应移动端的页面，在大部分手机上都是一致良好的体验
+4. 用async await函数编写请求 方便订货页面数据异步获取，计算推荐要货数。
+5. 添加防抖函数，避免频繁提交修改订单数量。
+6. 订货报表（echarts）展示，本来想使用v-charts，但是项目的图表功能不多，且移动设备性能有限，最后用原始方法引入echarts，监听data变动并setOption的方式使用echarts展示图表。
+7. 后期迭代时，推动更新为restful风格接口，前端加入ts，使用ts的接口和继承特性封装axios的请求。封装成类似orm框架式的调用方式比如：请求用户列表（原来：axios.get("/users/",{params:{username:"feng"}}) ;现在：user.find({username:"feng"})）
+8. 后期迭代时，推动首页数据通过websoket的方式获取，用户可以在首页看到实时的数据变化，比如剩余货物和推荐要货数。
 
 ------
 
@@ -527,21 +322,23 @@
 个人责任：
 
 1. 定义项目数据结构，搭建基于express后台服务提供restful接口
-2. 使用angularJs 搭建pc端的单页应用并完成功能逻辑
-3. 其中聊天室功能利用websocket，实现后台数据主动推送到客户端
+2. 用node-rsa和json-web-token的方式实现登录模块。node-rsa在服务启动时生成一对公钥和私钥，登录页面返回公钥，js根据公钥加密密码发送给服务端，服务端根据私钥解密。登录成功后用设置的key和用户名加密生成token返回给前端存储。之后的前端请求头中带有token，可以对每个接口进行权限管理。
+3. 使用angularJs 搭建pc端的单页应用并完成功能逻辑，统计用户搜索的热词频率，管理员创建一个定时聊天室，医生和用户可以在聊天室内中沟通。医生可以对其中一个问题进行详细解答，并保存下来。成为已回答问题，首页会根据此回答的查看次数排序和推荐。
+4. 封装ajax请求，统一根据响应状态码进行错误处理。比如401跳转登录，404跳转404页面。
+5. 其中聊天室功能利用websocket，实现后台数据主动推送到客户端
 
 ------
 
-| 项目时间        | 项目名称   | 技术栈                            |
-| --------------- | :--------- | :-------------------------------- |
-| 2017.06-2017.11 | 大城市项目 | `nodejs` `koa` `vue` `element ui` |
+| 项目时间        | 项目名称   | 技术栈                                      |
+| --------------- | :--------- | :------------------------------------------ |
+| 2017.06-2017.11 | 大城市项目 | `nodejs` `koa` `vue` `element ui` `echarts` |
 
 项目简介：展示城市气象数据
 
 个人责任：
 
-1. nodejs定时获取气象设备的数据存入本地，提供给气象团队分析生成相关气象图
-2. vue和element ui展示相关气象情况
+1. nodejs和node-schedule定时读取气象设备的中数据文件将其发送给我们的ftp服务器，ftp上根据天进行文件夹分类。当一个定时任务执行完，文件保存成功之后，通过http唤起python脚本开始处理数据文件。
+2. vue和element ui 搭建了一个展示前台，根据站点，事件筛选展示相关的气象数据（可以使用echarts进行展示的是echart，特别的气象图是用python生成的图片展示）
             </textarea>
         </div>
       </div>
@@ -553,7 +350,7 @@
 import { formatDate } from "../util/formatTime.js";
 import ItemContent from "~/components/ItemContent.vue";
 import InfoDetail from "~/components/InfoDetail.vue";
-
+import marked from "marked";
 
 
 export default {
@@ -720,9 +517,9 @@ export default {
       this.show = true;
     }, 500);
 
-    // let markdown = document.querySelector(".resume-markdown textarea").value;
+    let markdown = document.querySelector(".resume-markdown textarea").value;
 
-    // this.resume = marked(markdown);
+    this.resume = marked(markdown);
   }
 };
 </script>
