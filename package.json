@@ -23,7 +23,7 @@
     "koa-body": "^4.0.8",
     "koa-bodyparser": "^4.2.1",
     "marked": "^0.6.1",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.15.8",
     "prismjs": "^1.15.0",
     "v-charts": "^1.19.0",
     "vue-localstorage": "^0.6.2",
